@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Guessing Game</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+    </style>
+    <style>
+        .baskervville-regular-italic {
+            font-family: "Baskervville", serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+    </style>
+
+</head>
+<div class="container">
+    <h1>Word Guessing Game </h1>
+    <h2>Guess the Word !</h2>
+
+    <div class="inputs">
+        <input type="text" id="userInput">
+    </div>
+    <div class="details">
+        <p id="hint">Hint : <span id="hintText">Hint is here</span></p>
+        <p id="wrong words">wrong words : <span id="wrongLetters"></span></p>
+        <p id="remaining guess">remaining guess : <span id="remainingGuesses">5</span></p>
+
+    </div>
+
+</div>
+<script src="dic.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

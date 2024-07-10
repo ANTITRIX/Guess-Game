@@ -1,0 +1,49 @@
+
+body {
+    background-color:ghostwhite;
+    color: #333;
+    font-family: "Baskervville", serif;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #555;
+}
+
+input[type="text"] {
+    font-family: "Baskervville", serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    color: darkgray;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="text"]:hover {
+    background-color: lightgray;
+    border-color: skyblue;
+    cursor: pointer;
+}
+
+.details p {
+    text-align: center;
+    color: #777;
+    font-size: 20px;
+}
+.container {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 15px solid #f9f9f9;
+    padding: 70px 0;
+}
+
+#hint {
+    color: limegreen;
+}
+#remaining\ guess{
+    color: red;
+}
